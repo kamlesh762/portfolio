@@ -20,25 +20,30 @@
     }
     header h1 {
       margin: 0;
-      font-size: 2.4rem;
+      font-size: 2.2rem;
     }
     header p {
-      font-size: 1.2rem;
+      font-size: 1rem;
       margin-top: 8px;
+      opacity: 0.95;
+    }
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 20px;
     }
     section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
+      padding: 30px;
       background: white;
       margin-top: 20px;
       border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      box-shadow: 0 0 10px rgba(0,0,0,0.06);
     }
     h2 {
       color: #2c3e50;
       border-left: 5px solid #3498db;
       padding-left: 10px;
+      margin-top: 0;
     }
     .skills span {
       display: inline-block;
@@ -51,10 +56,16 @@
     }
     .project {
       background: #ecf0f1;
-      padding: 15px;
-      border-radius: 5px;
-      margin-bottom: 15px;
+      padding: 12px 15px;
+      border-radius: 6px;
+      margin-bottom: 12px;
     }
+    .meta {
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 6px;
+    }
+    .contact p { margin: 6px 0; }
     footer {
       text-align: center;
       padding: 20px;
@@ -68,58 +79,102 @@
 
 <header>
   <h1>Kamlesh Kumar</h1>
-  <p>PHP Laravel Developer | Python Learner | Future AI Professional</p>
+  <p>PHP & Laravel Developer • Full Stack Developer • 6+ Years Experience • Immediate Joiner</p>
 </header>
+
+<div class="container">
 
 <section>
   <h2>About Me</h2>
-  <p>Hello! I am Kamlesh Kumar, a passionate PHP Laravel Developer with a strong interest in Python and AI technologies. I love building scalable applications, solving problems, and improving my technical skills every day.</p>
+  <p class="meta">Full Stack Developer with 6+ years of experience in designing and building scalable web applications and APIs using PHP, Laravel, and CodeIgniter. Strong knowledge of JavaScript frameworks, databases, DevOps tools, and modern AI-powered developer tools. Immediate joiner with flexibility to relocate across India.</p>
+  <p>I focus on delivering performance-optimized solutions and collaborating with cross-functional teams to drive product success. Currently learning Python and exploring AI/ML integrations to build smarter applications.</p>
 </section>
 
 <section>
-  <h2>Skills</h2>
+  <h2>Skills (Short)</h2>
   <div class="skills">
     <span>PHP</span>
     <span>Laravel</span>
     <span>MySQL</span>
-    <span>HTML</span>
-    <span>CSS</span>
     <span>JavaScript</span>
-    <span>Python</span>
-    <span>REST API</span>
+    <span>HTML/CSS</span>
+    <span>REST APIs</span>
+    <span>Git</span>
+    <span>Python (Learning)</span>
   </div>
 </section>
 
 <section>
-  <h2>Projects</h2>
+  <h2>Experience</h2>
 
   <div class="project">
-    <h3>1. Inventory Management System</h3>
-    <p>A Laravel-based system for managing stock, orders, billing, and user permissions.</p>
+    <h3>Times Internet Limited — Full Stack Developer</h3>
+    <p class="meta">Jan 2024 – Present | Noida</p>
+    <ul>
+      <li>Designed and optimized scalable APIs and web services using Core PHP and Laravel.</li>
+      <li>Integrated advanced search functionality using Apache Solr to improve user engagement.</li>
+      <li>Worked in Agile teams with product and design for smooth deliveries.</li>
+    </ul>
   </div>
 
   <div class="project">
-    <h3>2. Customer Support Ticket System</h3>
-    <p>Built with Laravel + MySQL allowing customers to raise tickets and admins to respond.</p>
+    <h3>Chetu India Pvt. Ltd. — Senior Software Engineer</h3>
+    <p class="meta">Jun 2021 – Dec 2023 | Noida</p>
+    <ul>
+      <li>Developed enterprise-grade applications using Laravel and Node.js for international clients.</li>
+      <li>Improved backend performance by ~30% through query and architecture optimizations.</li>
+      <li>Received multiple client appreciations for timely and quality deliveries.</li>
+    </ul>
   </div>
 
   <div class="project">
-    <h3>3. Personal Portfolio (Current)</h3>
-    <p>A clean and modern HTML portfolio to showcase my skills and projects.</p>
+    <h3>Sine Infotech Pvt. Ltd. — Software Developer</h3>
+    <p class="meta">Jan 2019 – Apr 2021 | Delhi</p>
+    <ul>
+      <li>Built and maintained web applications using PHP, Laravel, CodeIgniter, and WordPress.</li>
+      <li>Delivered customized solutions to improve client satisfaction.</li>
+    </ul>
   </div>
 
+  <div class="project">
+    <h3>Zeltis Infotech Pvt. Ltd. — Software Developer</h3>
+    <p class="meta">Jan 2018 – Dec 2018 | Delhi</p>
+    <ul>
+      <li>Developed responsive websites using Core PHP & CodeIgniter and supported mobile app backends via APIs.</li>
+    </ul>
+  </div>
+
+</section>
+
+<section>
+  <h2>Education & Achievements</h2>
+  <p class="meta">MCA – UPTU (2012–2015) | BCA – Integral University, Lucknow (2009–2012)</p>
+  <ul>
+    <li>Winner — Backend Application Contest, Chetu India Pvt. Ltd.</li>
+    <li>Recognized multiple times by US clients for critical project delivery.</li>
+  </ul>
 </section>
 
 <section>
   <h2>Contact</h2>
-  <p>Email: kamleshkr.uptecail.com</p>
-  <p>Phone: +91 9410039445</p>
-  <p>Location: UP India</p>
+  <div class="contact">
+    <p>Email: kamleshkr.uptec@gmail.com</p>
+    <p>Phone: +91 9410039445</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/kamlesh-yadav-376016102" target="_blank">linkedin.com/in/kamlesh-yadav-376016102</a></p>
+    <p>Location: Sector 62, Noida, UP, India</p>
+  </div>
+</section>
+
+<section>
+  <h2>Interests</h2>
+  <p>Music • Cricket • Tech Blogs • Exploring AI & ML</p>
 </section>
 
 <footer>
   <p>© 2025 Kamlesh Kumar. All Rights Reserved.</p>
 </footer>
+
+</div>
 
 </body>
 </html>
